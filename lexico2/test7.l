@@ -17,7 +17,7 @@ int main() {
     file_7 = fopen(name, "r");
      
      if(!file_7) {
-	printf("Ocurrió un erro al abrir el archivo.\n");
+	printf("OcurriÃ³ un error al abrir el archivo.\n");
 	return 1;
 	}
 	yyin = file_7;
@@ -26,3 +26,4 @@ int main() {
 	fclose(file_7);
 	return 0;
 }
+
