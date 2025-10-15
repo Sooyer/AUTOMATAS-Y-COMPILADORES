@@ -4,9 +4,10 @@
 #define TOKEN_RFC             4
 #define TOKEN_CURP            5
 #define TOKEN_EMAIL           6
-#define TOKEN_BLOOM			      7
+#define TOKEN_BLOOM			    7
 #define TOKEN_BLOOM_ANALIZAR    8
 #define TOKEN_ADJETIVO          9
 #define TOKEN_CONJUNCION        10
 #define TOKEN_PREPOSICION       11
 #define TOKEN_PRONOMBRE         12
+
