@@ -1,12 +1,11 @@
 %option noyywrap
 %{
     #include <stdio.h>
-    #include <string.h>
     FILE *yyin;
     int cont = 0;
 %}
 
-RESERVADAS (int|float|double|char|void|bool|if|else|for|while|do|switch|case|break|continue|return|class|struct|public|private|protected|virtual|const|static|new|delete|try|catch|throw|using|namespace|include|iostream|std|main)
+RESERVADAS (int|float|double|char|void|bool|if|else|for|while|do|switch|case|break|return|class|struct|public|private|static|new|delete|try|catch|using|namespace|include|iostream|std|main)
 COMENT1 "//".*
 COMENT2 "/\\*([^*]|\\*+[^*/])*\\*+/"
 VARIABLE [a-zA-Z_][a-zA-Z0-9_]*
@@ -46,4 +45,5 @@ int main(){
     fclose(archivo);
     return 0;
 }
+
 
